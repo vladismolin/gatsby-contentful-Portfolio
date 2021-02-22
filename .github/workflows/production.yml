@@ -28,7 +28,7 @@ jobs:
       run: |
         yarn build
     - name: Deploy to S3
-      uses: jakejarvis/s3-sync-action@master
+      uses: vladismolin/gatsby-contentful-portfolio@master
       with:
         args: --acl public-read --delete
       env:
