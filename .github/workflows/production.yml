@@ -21,6 +21,9 @@ jobs:
     - name: Yarn Install
       run: |
         yarn install
+    - name: Check env
+      run: |
+        cut .env
     - name: Production Build
       run: |
         yarn build
