@@ -42,7 +42,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "npx cross-env GATSBY_EXPERIMENTAL_PLUGIN_OPTION_VALIDATION=1 gatsby develop",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "postinstall": "node ./bin/hello.js",
     "start": "npm run develop",
